@@ -16,6 +16,7 @@ function getFetch() {
       console.log(data);
       //Sometimes, you dont get only photos, it might be videos and we should make provision for it in our html and do a conditional
       if (data.media_type === "image") {
+        //Clear video
         document.querySelector(".iframe").style.display = "none";
 
         document.querySelector(".img").src = data.hdurl;
@@ -25,18 +26,18 @@ function getFetch() {
         document.querySelector("h3").style.display = "block";
         document.querySelector("h2").style.display = "block";
       } else if (data.media_type === "video") {
+        //clear previous image
         document.querySelector(".img").style.display = "none";
         //check why text gets duplicated here
         document.querySelector(".iframe").style.marginTop = "5rem";
         document.querySelector(".iframe").src = data.url;
-        //document.querySelector("h2").textContent = `Title: ${data.title}`;
         document.querySelector(".iframe").style.display = "block";
         document.querySelector("h3").style.display = "block";
         document.querySelector("h2").style.display = "none";
       }
       document.querySelector("h3").innerText = data.explanation;
     })
-    //exercise: Hide and show the images
+
     .catch((err) => {
       console.log(`error ${err}`);
     });
