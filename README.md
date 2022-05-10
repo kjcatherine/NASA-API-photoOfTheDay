@@ -21,7 +21,7 @@ This is a solution to an API assignment on the [100Devs software development boo
 ### Links
 
 - Solution URL: [solution](https://github.com/kjcatherine/NASA-API-photoOfTheDay)
-- Live Site URL: [live view](https://myqrcomp.netlify.app/)
+- Live Site URL: [live view](https://nasa-p-o-t-d.netlify.app/)
 
 ### Built with
 
@@ -33,7 +33,7 @@ This is a solution to an API assignment on the [100Devs software development boo
 
 ## How it works.
 
-This is an API from NASA which allows user retrieve a photo or video for a specific date they choose by clicking a button, along with the title and explanation of the returned media.
+This utilizes an API from NASA which allows user retrieve a photo or video for a specific date they choose by clicking a button, along with the title and explanation of the returned media.
 
 ## Author
 
