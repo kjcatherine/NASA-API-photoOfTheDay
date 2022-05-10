@@ -1,0 +1,157 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  margin-top: 4rem;
+  background-color: black;
+  color: wheat;
+  text-align: center;
+  font-size: 1.7rem;
+}
+.container {
+  background-color: inherit;
+  height: 100vh;
+  width: 100%;
+}
+input {
+  padding: 0.4rem 4rem;
+  background-color: wheat;
+  font-size: 1.7rem;
+  font-weight: 700;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  margin-right: 0.5rem;
+}
+
+button {
+  background-color: rgb(254, 196, 88);
+  padding: 0.5rem 3rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.img,
+.iframe {
+  border: none;
+  display: none;
+  margin: 0 auto;
+  width: 60%;
+  height: 70vh;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+h3 {
+  width: 60%;
+  text-align: left;
+  margin: 0 auto;
+  display: none;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+h2 {
+  display: none;
+  margin-top: 3rem;
+  color: rgb(213, 138, 9);
+  font-weight: 400;
+  font-size: 2rem;
+  word-spacing: 0.2rem;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media all and (max-width: 450px) {
+  h1 {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  .img,
+  .iframe {
+    width: 90%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  h3 {
+    width: 90%;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+  }
+  input {
+    padding: 0.4rem 2.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  button {
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
+
+@media all and (min-width: 451px) and (max-width: 769px) {
+  .img,
+  .iframe {
+    width: 90%;
+    height: auto;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h3 {
+    width: 90%;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+  }
+  input {
+    padding: 0.4rem 4rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  button {
+    padding: 0.5rem 3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
+
+@media all and (min-width: 770px) and (max-width: 1440px) {
+  .img,
+  .iframe {
+    width: 70%;
+  }
+  h3 {
+    width: 70%;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+  }
+  input {
+    padding: 0.4rem 4rem;
+    font-size: 1.6rem;
+  }
+
+  button {
+    padding: 0.5rem 3rem;
+    font-size: 1.5rem;
+  }
+}
