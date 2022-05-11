@@ -77,42 +77,48 @@ h2 {
 /* ADDITIONAL STYLES
 /*******************************************/
 @media all and (max-width: 450px) {
+  .container {
+    margin-top: 10rem;
+  }
   h1 {
-    font-size: 2.4rem;
-    margin-bottom: 2rem;
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
   }
   h2 {
-    font-size: 1.6rem;
+    font-size: 1.9rem;
   }
   .img,
   .iframe {
     width: 90%;
-    height: auto;
+    height: 50vh;
     margin-bottom: 2rem;
   }
   h3 {
     width: 90%;
-    font-size: 1.5rem;
-    line-height: 2.2rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
   }
   input {
-    padding: 0.4rem 2.5rem;
+    padding: 0.6rem 3rem;
     font-size: 1.5rem;
     font-weight: 600;
   }
 
   button {
-    padding: 0.5rem 2rem;
+    padding: 0.7rem 3rem;
     font-size: 1.5rem;
     font-weight: 600;
   }
 }
 
 @media all and (min-width: 451px) and (max-width: 769px) {
+  .container {
+    margin-top: 5rem;
+  }
   .img,
   .iframe {
     width: 90%;
-    height: auto;
+    height: 60vh;
   }
   h1 {
     font-size: 3rem;
