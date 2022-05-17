@@ -1,5 +1,5 @@
 //POSTMAN: ALLOWS YOU TO QUICKLY TEST APIS- just plug the url in to check
-//You always have to follow the rules of the api owner, check thier query parameter, always refer to thier documentation on how thier api should be used.
+//You always have to follow the rules of the api owner, check thier query parameter, always refer to thier documentation on how thier api should be used at all times.
 
 document.querySelector("button").addEventListener("click", getFetch);
 
