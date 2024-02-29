@@ -1,7 +1,5 @@
 # NASA-API-photoOfTheDay
 
-# Frontend Mentor - QR code component solution
-
 This is a solution to an API assignment on the [100Devs software development bootcamp](https://github.com/100devs). I was given a markup and was expected to come up with a responsive design as well as javascript logic to hide and show different media types. 
 
 ## Table of contents
